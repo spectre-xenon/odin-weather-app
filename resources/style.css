@@ -1,8 +1,8 @@
 @import "https://fonts.googleapis.com/css2?family=Inter&display=swap";
 :root {
-  --morning: url("/odin-weather-app/resources/images/morning.jpg");
-  --afternoon: url("/odin-weather-app/resources/images/afternoon.jpg");
-  --night: url("/odin-weather-app/resources/images/night.jpg");
+  --morning: url("./resources/images/night.webp");
+  --afternoon: url("./resources/images/afternoon.webp");
+  --night: url("./resources/images/night.webp");
 }
 
 * {
