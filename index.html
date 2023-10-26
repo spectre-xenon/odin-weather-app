@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./resources/style.css" />
+    <title>Xen' weather</title>
+  </head>
+  <body>
+    <input
+      type="text"
+      id="queryWeather"
+      placeholder="City, Zip code, Ip Adress......"
+    />
+
+    <div id="leftPane">
+      <h2 id="skyStatus">clear</h2>
+      <h1 id="city">Cairo, Egypt</h1>
+      <h1 id="temp">30 °F</h1>
+      <span id="currentIcon" class="material-symbols-rounded">dark_mode</span>
+    </div>
+
+    <div id="rightPane">
+      <div class="rightInfoContainer">
+        <div class="rightInfo">
+          <span class="material-symbols-rounded">weather_mix</span>
+          <h2>Chance of rain</h2>
+        </div>
+        <h1 id="chanceOfRain">69%</h1>
+      </div>
+      <div class="rightInfoContainer">
+        <div class="rightInfo">
+          <span id="humidityIcon" class="material-symbols-rounded">humidity_high</span>
+          <h2>Humidity</h2>
+        </div>
+        <h1 id="humidity">69%</h1>
+      </div>
+      <div class="rightInfoContainer">
+        <div class="rightInfo">
+          <span class="material-symbols-rounded">air</span>
+          <h2>Wind Speed</h2>
+        </div>
+        <h1 id="windSpeed">69 KM/H</h1>
+      </div>
+      <div class="rightInfoContainer">
+        <div class="rightInfo">
+          <span class="material-symbols-rounded">dew_point</span>
+          <h2>Feels like</h2>
+        </div>
+        <h1 id="feelsLike">30 °F</h1>
+      </div>
+    </div>
+
+    <div id="bottomPane">
+      <h3>Forcast</h3>
+      <div id="forcastContiner"></div>
+    </div>
+  </body>
+  <script src="./resources/index.js"></script>
+</html>
